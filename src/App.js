@@ -6,7 +6,7 @@ function App() {
       <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="imgs/logo.png" alt="Logo"></img>
+            <h1 class="logo">SAMRISH</h1>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span></span>
@@ -34,7 +34,7 @@ function App() {
           <h6 class="subtitle">Be part of our journey</h6>
           <h1 class="title">We are Hiring...</h1>
           <div class="buttons text-center">
-            <a href="#service" class="btn btn-primary rounded w-lg btn-lg my-1">Our Service</a>
+            <a href="#service" class="btn btn-primary rounded w-lg btn-lg my-1">Our Services</a>
             <a href="#contact" class="btn btn-outline-light rounded w-lg btn-lg my-1">Contact Us</a>
           </div>
         </div>
@@ -66,9 +66,9 @@ function App() {
             <div class="col-md-7 col-lg-8">
               <h6 class="section-subtitle mb-0">What we aim?</h6>
               <h6 class="section-title mb-3">Our Mission</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente cupiditate quas, amet harum perferendis minus, cum dolorum obcaecati iste aspernatur voluptatum aut.</p>
-              <p>Cum laudantium unde nemo doloribus eligendi quodarum ea vitae dicta. Accusantium vero, ea? Alias, atque libero. Id, ut harum. </p>
-              <p>consectetur adipisicing elit. Omnis quidem, quos iure a dolorum illum culpa quia nemo soluta, ratione harum beatae minus doloribus consectetur! Similique tempora sunt doloribus molestias.</p>
+              <p>We a technology startup to solve problems associated with trip planning, trip management and trip tracking in logisics industry. </p>
+              <p>Our SaaS Platform, which can utilised by different businesses to manage transformation of their goods on transportation networks. </p>
+              <p>Our team of highly experienced professionals with years of experience in industry is working hard to provide best solutions to add values in our customer businesses.</p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ function App() {
                 <div class="card-body">
                   <h2 class="mb-4"><i class="ti-filter text-primary"></i></h2>
                   <h6 class="card-title">Trip Planning</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                  <p>Our solutions provides tools to plan trips for future.</p>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ function App() {
                 <div class="card-body">
                   <h2 class="mb-4"><i class="ti-paint-roller text-primary"></i></h2>
                   <h6 class="card-title">Trip Management</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                  <p> Our solutions provides tools to manange trip scheules during execution of trip plan.</p>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ function App() {
                 <div class="card-body">
                   <h2 class="mb-4"><i class="ti-ruler-pencil text-primary"></i></h2>
                   <h6 class="card-title">Trip Tracking</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                  <p>Our solution provide services to track the vehicle on the road.</p>
                 </div>
               </div>
             </div>
