@@ -17,28 +17,13 @@ function App() {
                 <a class="nav-link" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#service">Service</a>
+                <a class="nav-link" href="#service">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonial">Testimonial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#blog">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-primary btn-sm ml-lg-3" href="components.html">Components</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -46,8 +31,8 @@ function App() {
       </nav>
       <header class="header">
         <div class="overlay">
-          <h6 class="subtitle">Small Team With Big Ideas</h6>
-          <h1 class="title">Creative Studio</h1>
+          <h6 class="subtitle">Be part of our journey</h6>
+          <h1 class="title">We are Hiring...</h1>
           <div class="buttons text-center">
             <a href="#service" class="btn btn-primary rounded w-lg btn-lg my-1">Our Service</a>
             <a href="#contact" class="btn btn-outline-light rounded w-lg btn-lg my-1">Contact Us</a>
@@ -57,18 +42,18 @@ function App() {
       <div class="box text-center">
         <div class="box-item">
           <i class="ti-vector"></i>
-          <h6 class="box-title">UX/UI Design</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis excepturi, repellat esse laborum explicabo quia.</p>
+          <h6 class="box-title">Technology</h6>
+          <p>We use technology as a tool to build solutions which can be used to run business with efficency</p>
         </div>
         <div class="box-item">
           <i class="ti-filter"></i>
-          <h6 class="box-title">Web Development</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis excepturi, repellat esse laborum explicabo quia.</p>
+          <h6 class="box-title">Innovation</h6>
+          <p>We believe in pushing our limits to bring best solution to reality.</p>
         </div>
         <div class="box-item">
           <i class="ti-mobile"></i>
-          <h6 class="box-title">App Design</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis excepturi, repellat esse laborum explicabo quia.</p>
+          <h6 class="box-title">Business</h6>
+          <p>We believe in generating values from the work we do.</p>
         </div>
       </div>
 
@@ -79,8 +64,8 @@ function App() {
               <img src="imgs/about.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page" class="w-100 img-thumbnail mb-3"></img>
             </div>
             <div class="col-md-7 col-lg-8">
-              <h6 class="section-subtitle mb-0">We Create</h6>
-              <h6 class="section-title mb-3">Awesome Work</h6>
+              <h6 class="section-subtitle mb-0">What we aim?</h6>
+              <h6 class="section-title mb-3">Our Mission</h6>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente cupiditate quas, amet harum perferendis minus, cum dolorum obcaecati iste aspernatur voluptatum aut.</p>
               <p>Cum laudantium unde nemo doloribus eligendi quodarum ea vitae dicta. Accusantium vero, ea? Alias, atque libero. Id, ut harum. </p>
               <p>consectetur adipisicing elit. Omnis quidem, quos iure a dolorum illum culpa quia nemo soluta, ratione harum beatae minus doloribus consectetur! Similique tempora sunt doloribus molestias.</p>
@@ -89,360 +74,39 @@ function App() {
         </div>
       </section>
 
-      <section class="has-bg-img py-md">
-        <div class="container text-center">
-          <h6 class="section-subtitle">We See</h6>
-          <h6 class="section-title mb-6">What Other Don't See.</h6>
-          <div class="widget mb-4">
-            <div class="widget-item">
-              <i class="ti-notepad"></i>
-              <h4>Planning</h4>
-            </div>
-            <div class="widget-item">
-              <i class="ti-layout"></i>
-              <h4>Mockup</h4>
-            </div>
-            <div class="widget-item">
-              <i class="ti-filter"></i>
-              <h4>Develope</h4>
-            </div>
-            <div class="widget-item">
-              <i class="ti-thumb-up"></i>
-              <h4>Provide</h4>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="service">
         <div class="container">
-          <h6 class="section-subtitle text-center">Makes Happen</h6>
-          <h5 class="section-title text-center mb-6">Our Service</h5>
+          <h6 class="section-subtitle text-center">What we offer?</h6>
+          <h5 class="section-title text-center mb-6">Our Services</h5>
           <div class="row">
-            <div class="col-sm-4 col-md-3">
+            <div class="col-sm-4">
               <div class="card mb-4">
                 <div class="card-body">
                   <h2 class="mb-4"><i class="ti-filter text-primary"></i></h2>
-                  <h6 class="card-title">corporis assumenda</h6>
+                  <h6 class="card-title">Trip Planning</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4 col-md-3">
+            <div class="col-sm-4">
               <div class="card mb-4">
                 <div class="card-body">
                   <h2 class="mb-4"><i class="ti-paint-roller text-primary"></i></h2>
-                  <h6 class="card-title">Debitis amet</h6>
+                  <h6 class="card-title">Trip Management</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4 col-md-3">
+            <div class="col-sm-4">
               <div class="card mb-4">
                 <div class="card-body">
                   <h2 class="mb-4"><i class="ti-ruler-pencil text-primary"></i></h2>
-                  <h6 class="card-title">Libero temporibus</h6>
+                  <h6 class="card-title">Trip Tracking</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-3">
-              <div class="card mb-4">
-                <div class="card-body">
-                  <h2 class="mb-4"><i class="ti-layers text-primary"></i></h2>
-                  <h6 class="card-title">Perspiciatis explicabo</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-3">
-              <div class="card mb-4">
-                <div class="card-body">
-                  <h2 class="mb-4"><i class="ti-bolt text-primary"></i></h2>
-                  <h6 class="card-title">Poluptatum</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-3">
-              <div class="card mb-4">
-                <div class="card-body">
-                  <h2 class="mb-4"><i class="ti-palette text-primary"></i></h2>
-                  <h6 class="card-title">Nihil dicta</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-3">
-              <div class="card mb-4">
-                <div class="card-body">
-                  <h2 class="mb-4"><i class="ti-stats-up text-primary"></i></h2>
-                  <h6 class="card-title">Repellendus maxime</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-3">
-              <div class="card mb-4">
-                <div class="card-body">
-                  <h2 class="mb-4"><i class="ti-location-arrow text-primary"></i></h2>
-                  <h6 class="card-title">Sint vitae</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section id="portfolio">
-        <div class="container text-center">
-          <h6 class="section-subtitle">Our Awesome Works</h6>
-          <h6 class="section-title mb-5">Our Portfolio</h6>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="img-wrapper">
-                <img src="imgs/folio-1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="overlay">
-                  <div class="overlay-infos">
-                    <h5>Project Title</h5>
-                    <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="img-wrapper">
-                <img src="imgs/folio-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="overlay">
-                  <div class="overlay-infos">
-                    <h5>Project Title</h5>
-                    <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="img-wrapper">
-                <img src="imgs/folio-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="overlay">
-                  <div class="overlay-infos">
-                    <h5>Project Title</h5>
-                    <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="img-wrapper">
-                <img src="imgs/folio-4.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="overlay">
-                  <div class="overlay-infos">
-                    <h5>Project Title</h5>
-                    <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="img-wrapper">
-                <img src="imgs/folio-5.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="overlay">
-                  <div class="overlay-infos">
-                    <h5>Project Title</h5>
-                    <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="img-wrapper">
-                <img src="imgs/folio-6.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="overlay">
-                  <div class="overlay-infos">
-                    <h5>Project Title</h5>
-                    <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section id="team">
-        <div class="container">
-          <h6 class="section-subtitle text-center">Meet With</h6>
-          <h6 class="section-title mb-5 text-center">Our Angels</h6>
-          <div class="row">
-            <div class="col-sm-6 col-md-4">
-              <div class="card text-center mb-4">
-                <img class="card-img-top inset" src="imgs/avatar.jpg"></img>
-                <div class="card-body">
-                  <h6 class="small text-primary font-weight-bold">FOUNDER</h6>
-                  <h5 class="card-title">Matthew Davis</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quos esse tenetur illo qui, nostrum.</p>
-                  <div class="socials">
-                    <a href="javascript:void(0)"><i class="ti-facebook"></i> </a>
-                    <a href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-dropbox"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="card text-center mb-4">
-                <img class="card-img-top inset" src="imgs/avatar-1.jpg"></img>
-                <div class="card-body">
-                  <h6 class="small text-primary font-weight-bold">CEO</h6>
-                  <h5 class="card-title">Barbara Ross</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quos esse tenetur illo qui, nostrum.</p>
-                  <div class="socials">
-                    <a href="javascript:void(0)"><i class="ti-facebook"></i> </a>
-                    <a href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-dropbox"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="card text-center mb-4">
-                <img class="card-img-top inset" src="imgs/avatar-2.jpg"></img>
-                <div class="card-body">
-                  <h6 class="small text-primary font-weight-bold">Designer</h6>
-                  <h5 class="card-title">Karen Perry</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quos esse tenetur illo qui, nostrum.</p>
-                  <div class="socials">
-                    <a href="javascript:void(0)"><i class="ti-facebook"></i> </a>
-                    <a href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-dropbox"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="card text-center mb-4">
-                <img class="card-img-top inset" src="imgs/avatar-3.jpg"></img>
-                <div class="card-body">
-                  <h6 class="small text-primary font-weight-bold">App Designer</h6>
-                  <h5 class="card-title">Ashley Diaz</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quos esse tenetur illo qui, nostrum.</p>
-                  <div class="socials">
-                    <a href="javascript:void(0)"><i class="ti-facebook"></i> </a>
-                    <a href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-dropbox"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="card text-center mb-4">
-                <img class="card-img-top inset" src="imgs/avatar-4.jpg"></img>
-                <div class="card-body">
-                  <h6 class="small text-primary font-weight-bold">Developer</h6>
-                  <h5 class="card-title">Edward Harris</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quos esse tenetur illo qui, nostrum.</p>
-                  <div class="socials">
-                    <a href="javascript:void(0)"><i class="ti-facebook"></i> </a>
-                    <a href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-dropbox"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="card text-center mb-4">
-                <img class="card-img-top inset" src="imgs/avatar-5.jpg"></img>
-                <div class="card-body">
-                  <h6 class="small text-primary font-weight-bold">photographer</h6>
-                  <h5 class="card-title">Brian Scott</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quos esse tenetur illo qui, nostrum.</p>
-                  <div class="socials">
-                    <a href="javascript:void(0)"><i class="ti-facebook"></i> </a>
-                    <a href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-dropbox"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="has-bg-img bg-img-2">
-        <div class="container text-center">
-          <h6 class="section-subtitle">We Are Awesome</h6>
-          <h6 class="section-title mb-6">Some Fun Fucts</h6>
-          <div class="widget-2">
-            <div class="widget-item">
-              <i class="ti-cup"></i>
-              <h6 class="title">100+</h6>
-              <div class="subtitle">Awards Won</div>
-            </div>
-            <div class="widget-item">
-              <i class="ti-face-smile"></i>
-              <h6 class="title">100+</h6>
-              <div class="subtitle">Happy Clients</div>
-            </div>
-            <div class="widget-item">
-              <i class="ti-blackboard"></i>
-              <h6 class="title">845+</h6>
-              <div class="subtitle">Project Completed</div>
-            </div>
-            <div class="widget-item">
-              <i class="ti-comments-smiley"></i>
-              <h6 class="title">15K+</h6>
-              <div class="subtitle">Comments</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="testimonial">
-        <div class="container">
-          <h6 class="section-subtitle text-center">Testimonial</h6>
-          <h6 class="section-title text-center mb-6">What Our Clients Says</h6>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="testimonial-wrapper">
-                <div class="img-holder">
-                  <img src="imgs/avatar-5.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                </div>
-                <div class="body">
-                  <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci nihil.</p>
-                  <h6 class="title">Richard Reb</h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="testimonial-wrapper">
-                <div class="img-holder">
-                  <img src="imgs/avatar-6.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                </div>
-                <div class="body">
-                  <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci nihil.</p>
-                  <h6 class="title">John Doe</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="has-bg-img py-lg">
-        <div class="container text-center">
-          <button type="button" class="btn btn-outline-primary play-control" data-toggle="modal" data-target="#exampleModalCenter">
-            <i class="ti-control-play" ></i>
-          </button>
-          <h6 class="section-title mt-4">See Our Intro Video</h6>
         </div>
       </section>
 
@@ -454,94 +118,36 @@ function App() {
         </div>
       </div>
 
-      <section id="blog">
-        <div class="container">
-          <h6 class="section-subtitle text-center">News Feeds</h6>
-          <h6 class="section-title mb-6 text-center">Our Blog</h6>
-
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card blog-post my-4 my-sm-5 my-md-0">
-                <img src="imgs/blog-1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="card-body">
-                  <div class="details mb-3">
-                    <a href="javascript:void(0)"><i class="ti-comments"></i> 123</a>
-                    <a href="javascript:void(0)"><i class="ti-eye"></i> 123</a>
-                  </div>
-                  <h5 class="card-title">Possimus aliquam veniam</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium dolor nisi obcaecati, non laboriosam asperiores doloremque tempora repellendus iure!</p>
-                  <a href="javascript:void(0)" class="d-block mt-3">Read More...</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card blog-post my-4 my-sm-5 my-md-0">
-                <img src="imgs/blog-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="card-body">
-                  <div class="details mb-3">
-                    <a href="javascript:void(0)"><i class="ti-comments"></i> 434</a>
-                    <a href="javascript:void(0)"><i class="ti-eye"></i> 987</a>
-                  </div>
-                  <h5 class="card-title">Repudiandae laudantium</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium dolor nisi obcaecati, non laboriosam asperiores doloremque tempora repellendus iure!</p>
-                  <a href="javascript:void(0)" class="d-block mt-3">Read More...</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card blog-post my-4 my-sm-5 my-md-0">
-                <img src="imgs/blog-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page"></img>
-                <div class="card-body">
-                  <div class="details mb-3">
-                    <a href="javascript:void(0)"><i class="ti-comments"></i> 164</a>
-                    <a href="javascript:void(0)"><i class="ti-eye"></i> 425</a>
-                  </div>
-                  <h5 class="card-title">Laboriosam asperiores</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium dolor nisi obcaecati, non laboriosam asperiores doloremque tempora repellendus iure!</p>
-                  <a href="javascript:void(0)" class="d-block mt-3">Read More...</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="contact">
         <div class="container">
           <div class="contact-card">
-          <div class="infos">
-              <h6 class="section-subtitle">Get Here</h6>
+            <div class="infos">
+              <h6 class="section-subtitle">How to reach out?</h6>
               <h6 class="section-title mb-4">Contact Us</h6>
-              <div class="item">
-                <i class="ti-location-pin"></i>
-                <div class="">
-                  <h5>Location</h5>
-                  <p> 12345 Fake ST NoWhere AB Country</p>
+              <div class="contact-details">
+                <div class="item">
+                  <i class="ti-location-pin"></i>
+                  <div class="">
+                    <h5>Address</h5>
+                    <p> D 59/2 Swaroop Nagar, Delhi,<br /> Pincode 110042</p>
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <i class="ti-mobile"></i>
-                <div>
-                  <h5>Phone Number</h5>
-                  <p>(123) 456-7890</p>
+                <div class="item">
+                  <i class="ti-mobile"></i>
+                  <div>
+                    <h5>Phone Number</h5>
+                    <p>+91-9899547045</p>
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <i class="ti-email"></i>
-                <div class="mb-0">
-                  <h5>Email Address</h5>
-                  <p>info@website.com</p>
-                </div>
-              </div>
-              <div class="item">
-                <i class="ti-world"></i>
-                <div class="mb-0">
-                  <h5>example.com</h5>
-                  <p>info@example.com</p>
+                <div class="item">
+                  <i class="ti-email"></i>
+                  <div class="mb-0">
+                    <h5>Email Address</h5>
+                    <p>info@samrish.com</p>
+                  </div>
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </section>

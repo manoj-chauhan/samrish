@@ -1,6 +1,7 @@
 .widget {
     position: relative;
-    display: flex;;
+    display: flex;
+    ;
     justify-content: space-between;
     flex-wrap: wrap;
 
@@ -49,7 +50,7 @@
             }
         }
 
-            
+
     }
 }
 
@@ -69,7 +70,7 @@
     }
 
     .overlay {
-        background: darken(rgba($primary,.7),10%);
+        background: darken(rgba($primary, .7), 10%);
         position: absolute;
         left: 0;
         top: 100%;
@@ -78,14 +79,14 @@
         z-index: 9;
         visibility: hidden;
         opacity: 0;
-        @include transition(all,.4s);
+        @include transition(all, .4s);
 
         .overlay-infos {
             position: absolute;
             top: 100%;
             left: 50%;
-            transform: translate(-50%,-50%);
-            @include transition(all,.3s);
+            transform: translate(-50%, -50%);
+            @include transition(all, .3s);
             transition-delay: .2s;
             color: $white;
 
@@ -143,7 +144,7 @@
         padding: 4px;
         width: 90px;
         height: 90px;
-        border-radius: 50%; 
+        border-radius: 50%;
     }
 
     .body {
@@ -155,7 +156,7 @@
 
         .title {
             margin-top: 20px;
-            font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1300 - 300)));               
+            font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1300 - 300)));
         }
     }
 }
@@ -166,15 +167,16 @@
 .box {
     background: $white;
     border-radius: $border-radius-lg;
-    display: flex;;
+    display: flex;
+    ;
     align-items: center;
     padding: 30px 0;
     width: 95%;
     max-width: 1050px;
     margin: auto;
-    box-shadow: 2px 0 10px rgba($gray-800,.2);
+    box-shadow: 2px 0 10px rgba($gray-800, .2);
     margin-top: -140px;
-    
+
     z-index: 99;
     position: relative;
     max-height: 300px;
@@ -225,7 +227,8 @@
 // Widget Type 2
 .widget-2 {
     position: relative;
-    display: flex;;
+    display: flex;
+    ;
 
     .widget-item {
         border-right: 1px solid rgba($white, .1);
@@ -251,7 +254,7 @@
             display: block;
             margin-bottom: 30px;
             color: $primary;
-            @include transition(all,.3);
+            @include transition(all, .3);
         }
 
         .title {
@@ -302,9 +305,9 @@
         width: 90%;
         margin: auto;
         border-radius: $card-border-radius;
-        box-shadow: 1px 3px 8px rgba($gray-700,.2);
+        box-shadow: 1px 3px 8px rgba($gray-700, .2);
 
-        & + .card-body {
+        &+.card-body {
             margin-top: 10px;
         }
     }
@@ -335,16 +338,17 @@
         width: 90%;
         margin: -8% auto 0;
         border-radius: $card-border-radius !important;
-        box-shadow: 2px 5px 35px rgba($gray-500,.3), -2px -5px 10px rgba($gray-500,.3);
+        box-shadow: 2px 5px 35px rgba($gray-500, .3), -2px -5px 10px rgba($gray-500, .3);
     }
 
     .card-body {
         margin: auto;
         background: inherit;
-        border-radius: $card-border-radius $card-border-radius 0 0 ;
+        border-radius: $card-border-radius $card-border-radius 0 0;
 
         .details {
             text-align: center;
+
             a {
                 text-align: center;
                 display: inline-block;
@@ -375,24 +379,28 @@
     border-radius: $border-radius;
     border: 1px solid $border-color;
     background: $white;
-    box-shadow: 1px 3px 10px rgba($gray-500,.4);
+    box-shadow: 1px 3px 10px rgba($gray-500, .4);
     padding: 40px 0;
     display: flex;
 
     .infos {
         padding: 0 40px;
         min-width: 400px;
-        border-right: 1px solid $border-color;
+        width: 100%;
+
+        .contact-details {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+        }
 
         .item {
             display: flex;
-            border-bottom: 1px solid $border-color;
+            justify-content: center;
             margin-top: 20px;
             padding-bottom: 20px;
-
-            &:last-child {
-                border-bottom: 0;
-            }
+            width: 100%;
 
             h5 {
                 margin-bottom: 0;
@@ -409,12 +417,16 @@
                 margin: 4px 20px 0 0;
             }
         }
-    }
 
-    @include media-breakpoint-down(md) {
-        .infos {
-            display: none;
+        @include media-breakpoint-down(md) {
+            .contact-details {
+                display: flex;
+                flex-direction: column;
+            }
+            .item {
+                justify-content: left;
+            }
         }
+        
     }
 }
-
